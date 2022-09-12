@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\StringManipulation\\StringManipulation.App\\StringManipulation.App.csproj": {}
+    "D:\\repos\\string-manipulation\\StringManipulation.App\\StringManipulation.App.csproj": {}
   },
   "projects": {
-    "D:\\repos\\StringManipulation\\StringManipulation.App\\StringManipulation.App.csproj": {
+    "D:\\repos\\string-manipulation\\StringManipulation.App\\StringManipulation.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\StringManipulation\\StringManipulation.App\\StringManipulation.App.csproj",
+        "projectUniqueName": "D:\\repos\\string-manipulation\\StringManipulation.App\\StringManipulation.App.csproj",
         "projectName": "StringManipulation.App",
-        "projectPath": "D:\\repos\\StringManipulation\\StringManipulation.App\\StringManipulation.App.csproj",
+        "projectPath": "D:\\repos\\string-manipulation\\StringManipulation.App\\StringManipulation.App.csproj",
         "packagesPath": "C:\\Users\\efrain.pardo\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\StringManipulation\\StringManipulation.App\\obj\\",
+        "outputPath": "D:\\repos\\string-manipulation\\StringManipulation.App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

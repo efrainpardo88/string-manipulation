@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J5R+OPdc/uBtn5gUGiD2HlNPVxTEpIkaOp0oL2tqMO57XzwFKAx5RycfpuPAHE0sZjs/2lOalbczndJvlzRtKQ==",
+  "dgSpecHash": "IjeAQOORZr2kffOOojg/+2+Wyt0zmTm0FDkca3XMAsrdK61d5cBFf9y2mVh2u4kzH5oViRIgYpeWCoxuP7zStQ==",
   "success": true,
-  "projectFilePath": "D:\\repos\\StringManipulation\\StringManipulation.App\\StringManipulation.App.csproj",
+  "projectFilePath": "D:\\repos\\string-manipulation\\StringManipulation.App\\StringManipulation.App.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
