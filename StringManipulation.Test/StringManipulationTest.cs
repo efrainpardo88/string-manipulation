@@ -8,7 +8,32 @@ namespace StringManipulation.Test
         App.StringManipulation stringManipulation = new();
 
         [Fact]
-        public void Test1()
+        public void StringManipulationWithoutParamsTest()
+        {
+            // Get result
+            var result = stringManipulation.sortingOperations();
+
+            // Validate result
+            Assert.Equal("-404", result);
+        }
+
+        [Fact]
+        public void StringManipulationWithInconsistentLengthTest()
+        {
+            // Get result
+            var strArray = new string[]
+            {
+                "abaccadcc",
+                "xyzxy"
+            };
+            var result = stringManipulation.sortingOperations(10, strArray);
+
+            // Validate result
+            Assert.Equal("-404", result);
+        }
+
+        [Fact]
+        public void StringManipulationTest1()
         {
             // Get result
             var strArray = new string[]
@@ -28,7 +53,7 @@ namespace StringManipulation.Test
         }
 
         [Fact]
-        public void Test2()
+        public void StringManipulationTest2()
         {
             // Get result
             var strArray = new string[]
@@ -64,7 +89,7 @@ namespace StringManipulation.Test
         }
 
         [Fact]
-        public void Test3()
+        public void StringManipulationTest3()
         {
             // Get result
             var strArray = new string[]
@@ -90,7 +115,7 @@ namespace StringManipulation.Test
         }
 
         [Fact]
-        public void Test4()
+        public void StringManipulationTest4()
         {
             // Get result
             var strArray = new string[]
@@ -126,7 +151,7 @@ namespace StringManipulation.Test
         }
 
         [Fact]
-        public void Test5()
+        public void StringManipulationTest5()
         {
             // Get result
             var strArray = new string[]
@@ -148,7 +173,7 @@ namespace StringManipulation.Test
         }
 
         [Fact]
-        public void Test6()
+        public void StringManipulationTest6()
         {
             // Get result
             var strArray = new string[]
